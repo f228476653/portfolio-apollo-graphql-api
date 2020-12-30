@@ -1,17 +1,7 @@
 let arc = require('@architect/functions')
 let {ApolloServer, gql} = require('apollo-server-lambda')
-
-let typeDefs = gql`
-  type Query {
-    hello: String
-  }
-`
-
-let resolvers = {
-  Query: {
-    hello: () => 'Hello world!',
-  },
-}
+const { typeDefs } = require('./schema')
+const { resolvers } = require('./resolver')
 
 let server = new ApolloServer({typeDefs, resolvers})
 let handler = server.createHandler()
