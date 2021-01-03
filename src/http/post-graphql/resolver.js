@@ -21,17 +21,14 @@ const resolvers = {
 
 const resolveHeader = () => {
     return {
-        name: "Roger",
+        name: "Anita",
         avatarImg: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/avatar.png",
         headerTagline: [
-          "Founder,",
-          "Full-stack Developer",
-          "and Music Producer"
+          "Full-stack Developer"
         ],
         headerParagraph:
-          "Friendly, enthusiastic, and upbeat Full-stack Developer with more than 10 years of experience in the field, " +
-          "a Project Founder, and self-taught Music Composer & Producer.",
-        contactEmail: "roger.petruki@gmail.com"
+          "Friendly, enthusiastic, and upbeat Full-stack Developer with more than 3 years of experience in the field " ,
+        contactEmail: "huilong494@gmail.com"
     }
 }
 
@@ -39,52 +36,53 @@ const resolveWork = () => {
     return [
         {
             id: 1,
-            title: "Switcher API",
+            title: "Smart Parking Cloud Service",
             para:
-                "Not only an API that has a goal of providing a toggling mechanism, but a platform which can offer a wide range of " +
-                "customization and control regarding software behavior.",
-            imageSrc: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/work/switcherapi.png",
-            url: "https://switcherapi.github.io/switcher-management/"
+                "It is a cloud-based, multiple device parking payments software platform that enables people to park conveniently " +
+                "while providing lot owners and managers with real-time data and enforcement tools."+
+                "I was responsible for both front-end and back-end",
+            imageSrc: "https://github.com/f228476653/anita-portfolio/blob/master/src/images/work/paku.png?raw=true",
+            url: "https://github.com/f228476653/parking_server_code_v2"
         },
         {
             id: 2,
-            title: "Trackerforce",
+            title: "Smart Parking Front-end",
             para:
-                "A CXM platform that componentize your business processes. Trackerforce is aimed to provide tracking capabilities for both business and customers.",
-            imageSrc: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/work/trackerforce.png",
-            url: "https://github.com/trackerforce"
+                "Develop Internal HR System, Budget System, Analysis and Report based on SpringMVC, Hibernate",
+            imageSrc: "https://github.com/f228476653/anita-portfolio/blob/master/src/images/work/paku.png?raw=true",
+            url: "https://github.com/f228476653/parking_ui"
         },
         {
             id: 3,
-            title: "SplitMATE",
+            title: "TPE Airport App Backend",
             para:
-                "Split whatever you want with SplitMATE, create voting polls, check items & tasks, estimate individual costs, everything in real-time, and of course, do not let the fun goes away.",
-            imageSrc: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/work/splitmate.png",
-            url: "https://github.com/trackerforce/splitmate-android-app"
+                "Use Django REST framework to build APIs as backend for Airport mobile apps ",
+            imageSrc: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/work/trackerforce.png",
+            url: "https://www.taoyuan-airport.com/main_en/docdetail.aspx?uid=437&pid=437&docid=165"
         },
         {
             id: 4,
-            title: "Skimming Deno Library",
+            title: "Internal Protocal System",
             para:
-                "Skimming is a data fetcher based on Deno runtime for JavaScript and TypeScript. The idea is to provide a simple and efficient search engine module.",
-            imageSrc: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/work/skimming.png",
-            url: "https://deno.land/x/skimming@v1.0.7"
+                "Develop Internal HR System, Budget System, Analysis and Report based on SpringMVC, Hibernate",
+            imageSrc: "",
+            url: "https://www.iisigroup.com/"
         },
         {
             id: 5,
-            title: "EMPTY EP",
+            title: "WordPress Forum",
             para:
-                "2018 – Released an EP called “Empty” under my label ℗ Rogerio Petruki. Available on all mainstream music platforms.",
-            imageSrc: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/work/empty.png",
-            url: "https://rogeriopetruki.bandcamp.com/album/empty-revisited"
+                "A forum for chinese international students in Vancouver",
+            imageSrc: "",
+            url: "https://studentbb.com/"
         },
         {
             id: 6,
             title: "Other Projects",
             para:
                 "From granular APIs to Full-stack applications. Find out more about my recent projects and experiments on my GitHub page.",
-            imageSrc: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/work/github.png",
-            url: "https://github.com/petruki?tab=repositories"
+            imageSrc: "https://raw.githubusercontent.com/f228476653/anita-portfolio/master/src/images/work/github.png",
+            url: "https://github.com/f228476653?tab=repositories"
         }
     ]
 }
@@ -93,17 +91,14 @@ const resolveAbout = () => {
     return {
         aboutParaOne:
             "I dived into the coding world just before I entered the College. " + 
-            "My first contact with programming was customizing and developing game mods which stimulated my sense of curiosity to learn more.",
+            "My first project with programming was customizing and developing HR system in which stimulated my sense of curiosity to learn more.",
         aboutParaTwo:
-            "Fast-forwarding to my first job as a Java Developer, I was challenged to write a compiler using Java CC. " +
-            "The funny thing is that in terms of coding complexity, my first hands-on project is still in my top 5 challenging projects that I have ever worked with.",
+            "Fast-forwarding to my first job as a Java Developer, I was challenged to build a enterprise internal system using Java and SpringMVC. " ,
         aboutParaThree:
-            "After gaining enough experience, I've assumed more complex projects on which programming was not the only variable. " + 
-            "As a Senior Architect, I was able to use and learn several other skills to deliver the best solution through a concise roadmap that would lead to results.",
+            "After gaining some experience, I've assumed more complex projects on which programming was not the only variable. " + 
+            "As a experienced developer, I was able to use and learn several other skills to deliver the best solution through a concise roadmap that would lead to results.",
         aboutParaFour:
-            "Throughout this exciting journey as a Software Engineer, I also have other interests that unconsciously go hand in hand, such as Music Production. " +
-            "Being able to produce such materials has to do with translating tons of information into analog sound waves. " + 
-            "And to be honest, I would have to create a new portfolio to just talk about this. =D",
+            "Throughout this exciting journey as a Software Engineer, I also have other interests that unconsciously go hand in hand, such as culinary, handicraft. " ,
         aboutImage: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/roger.png"
     }
 }
@@ -112,111 +107,64 @@ const resolveSkill = () => {
     return [
         {
             id: 1,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/java.png",
+            img: "https://raw.githubusercontent.com/f228476653/anita-portfolio/master/src/images/skills/java.png",
             para:
-                "Started using Java from the beginning of my career. I have developed software of all kind, " +
-                "from desktop, web, mobile and webservices, to compiler, APIs, libraries and much more.",
+                "Started using Java from the beginning of my career. I have developed software of many kind, " +
+                "from desktop, web, mobile and webservices, APIs and much more.",
             references: [
                 {
-                    title: 'Switcher Client SDK',
-                    description: 'Complete SDK for working with Switcher API.',
-                    link: 'https://github.com/switcherapi/switcher-client'
+                    title: 'Twitter-clone',
+                    description: 'Clone Twitter by using Java as backend API. ',
+                    link: 'https://github.com/f228476653/CSIS3275001'
                 },
                 {
-                    title: 'Java CPU Simulator',
+                    title: 'Internal Protocal System',
                     description: 'This pure java application simulates thread working.',
-                    link: 'https://github.com/petruki/jcpu-simulator'
-                },
-                {
-                    title: 'Simple MySQL Library',
-                    description: 'Abstracts DB basic operations.',
-                    link: 'https://github.com/petruki/simple-mysql-crud'
+                    link: 'https://www.iisigroup.com/'
                 }
             ]
-        },
-        {
+        },{
             id: 2,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/javascript.png",
+            img: "https://raw.githubusercontent.com/f228476653/anita-portfolio/master/src/images/skills/python.png",
             para:
-                "JavaScript is present on my stack since I started working as Full-stack developer. " +
-                "Never alone, JS is the very cornerstone of almost every recent framework I've learned so far.",
+            "Python has been the chosen runtime for some of my recent projects. " +
+            "I have written APIs, web crawlers and libraries in conjunction with several different frameworks. " +
+            "Just to mention a few, Flask, Django, aiohttp, much more.",
             references: [
                 {
-                    title: 'Switcher JavaScript Client SDK',
-                    description: 'Complete SDK for working with Switcher API.',
-                    link: 'https://github.com/switcherapi/switcher-client-master'
+                    title: 'Smart Parking Cloud Service',
+                    description: "Provide async Web Apps powered by Aiohttp, SQLAlchemy and Swagger API" +
+                        "features access to the Twitter-clone API environment.",
+                    link: 'https://github.com/f228476653/CSIS3275001'
                 },
                 {
-                    title: 'Web Crawler - Ohm Studio',
-                    description: 'Scrapes public projects to be available on the API player/search eangine.',
-                    link: 'https://github.com/petruki/ohm-project-scraper'
-                },
-                {
-                    title: 'Web Crawler - Google Currency',
-                    description: 'Scrapes currency, integrates with Slack for notification purposes.',
-                    link: 'https://github.com/petruki/google-currency-job'
+                    
                 }
             ]
         },
         {
             id: 3,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/deno.png",
+            img: "https://raw.githubusercontent.com/f228476653/anita-portfolio/master/src/images/skills/angular.png",
             para:
-                "Skimming Module was my first contribution to Deno project. " +
-                "It allowed me to taste developing backend applications written in TypeScript and tons of out-of-the-box features " +
-                "that would not be trivial while using other technologies.",
+                "For my front-end development framework of choice, Angular 6 was used to build Parking Platform, " +
+                "a project that interfaces with Parking Platform API and provides a simple yet robust UI. " +
+                "Recently, I have been using React as well as part of my front-end stack.",
             references: [
                 {
-                    title: 'Skimming Lambda API',
-                    description: 'Lambda API that uses my Skimming module for Deno.',
-                    link: 'https://github.com/petruki/skimming-lambda-api'
+                    title: 'Parking Management Platform',
+                    description: 'Parking Management Platform is a complete GUI written in Angular to interact with the Switcher API.',
+                    link: 'https://github.com/f228476653/home-rental'
                 },
                 {
-                    title: 'Skimming API',
-                    description: 'Skimming API is a RESTful API that uses Skimming and Oak Middleware modules to deliver a simple and efficient search engine.',
-                    link: 'https://github.com/petruki/skimming-api'
+                    title: 'Home rental',
+                    description: 'List Porterties for rent.',
+                    link: 'https://github.com/f228476653/home-rental'
                 }
             ]
         },
         {
             id: 4,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/spring.png",
-            para:
-                "Started using Spring framework since v3 and still incorporating it to my recent projects. " +
-                "Switcher AC is project that uses Spring Boot v2.3.7 and Spring Security v5.3 for handling all account profiler over the Switcher API platform. " +
-                "Spring framework was also chosen to orchestrate a multi-tenancy implementation on Trackerforce project.",
-            references: [
-                {
-                    title: 'Switcher Account Control',
-                    description: "Switcher Account Control is a simple API written in Java/Spring Boot responsible for managing " +
-                        "features access to the Switcher API showcase environment.",
-                    link: 'https://github.com/switcherapi/switcher-ac'
-                }
-            ]
-        },
-        {
-            id: 5,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/angular.png",
-            para:
-                "For my front-end development framework of choice, Angular 2 was used to build Switcher Management, " +
-                "a project that interfaces with Switcher API and provides a simple yet robust UI. " +
-                "Recently, I have been using React as well as part of my front-end stack.",
-            references: [
-                {
-                    title: 'Switcher Management',
-                    description: 'Switcher Management is a complete GUI written in Angular to interact with the Switcher API.',
-                    link: 'https://github.com/switcherapi/switcher-management'
-                },
-                {
-                    title: 'Page Replacement Algorithm',
-                    description: 'A simple real-time page replacement simulator.',
-                    link: 'https://github.com/petruki/page-replacement-algorithm'
-                }
-            ]
-        },
-        {
-            id: 6,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/nodejs.png",
+            img: "https://raw.githubusercontent.com/f228476653/anita-portfolio/master/src/images/skills/nodejs.png",
             para:
                 "Nodejs has been the chosen runtime for some of my recent open-source projects. " +
                 "I have written APIs, web crawlers and libraries in conjunction with several different frameworks. " +
@@ -235,23 +183,23 @@ const resolveSkill = () => {
             ]
         },
         {
-            id: 7,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/oracle.png",
+            id: 5,
+            img: "https://raw.githubusercontent.com/f228476653/anita-portfolio/master/src/images/skills/oracle.png",
             para:
                 "Hands-on experience working for 8 years with Oracle solutions. " +
                 "Developed an enterprise solution using Oracle 11g as DBMS, Oracle Coherence for in-memory data caching and Oracle RTD as our machine learning component."
         },
         {
-            id: 8,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/mongodb.png",
+            id: 6,
+            img: "https://raw.githubusercontent.com/f228476653/anita-portfolio/master/src/images/skills/mongodb.png",
             para:
                 "When the goal is to develop a concise and granular APIs which scales horizontally, " +
                 "MongoDB is my NoSQL DB of choice. Using it to produce aggregation analysis or " +
                 "even using multi-tenancy approach to create independent data store mechanism over the same platform were the reason MongoDB shined."
         },
         {
-            id: 9,
-            img: "https://raw.githubusercontent.com/petruki/rogerportfolio/master/src/images/skills/git.png",
+            id: 7,
+            img: "https://raw.githubusercontent.com/f228476653/anita-portfolio/master/src/images/skills/git.png",
             para:
                 "Not only a version controller, but part of the process of creating software which each one of them might have different approaches. " +
                 "As we have worked mostly with open-source projects, it requires a high level of code verification and " +
