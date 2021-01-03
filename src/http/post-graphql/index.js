@@ -3,8 +3,8 @@ let {ApolloServer, gql} = require('apollo-server-lambda')
 const { typeDefs } = require('./schema')
 const { resolvers } = require('./resolver')
 
-let server = new ApolloServer({cors: false, typeDefs, resolvers})
-let handler = server.createHandler()
+const server = new ApolloServer({ typeDefs, resolvers })
+const handler = server.createHandler({ cors: { origin: '*' } })
 
 exports.handler = function(event, context, callback) {
   let body = arc.http.helpers.bodyParser(event)
