@@ -3,7 +3,7 @@ let {ApolloServer, gql} = require('apollo-server-lambda')
 const { typeDefs } = require('./schema')
 const { resolvers } = require('./resolver')
 
-let server = new ApolloServer({typeDefs, resolvers})
+let server = new ApolloServer({cors: false, typeDefs, resolvers})
 let handler = server.createHandler()
 
 exports.handler = function(event, context, callback) {
