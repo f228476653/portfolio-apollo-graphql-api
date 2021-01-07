@@ -1,4 +1,5 @@
 const resolvers = {
+    Query: {
         check: () => 'All good',
         header() {
             return resolveHeader()
@@ -15,7 +16,7 @@ const resolvers = {
         contact() {
             return resolveContact()
         }
-    
+    }
 }
 
 const resolveHeader = () => {
